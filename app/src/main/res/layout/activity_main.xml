@@ -11,17 +11,42 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:textSize="24sp"
         android:text="score!"
-        android:textColor="@color/colorPrimary"/>
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:layout_below="@id/score"
-        android:textSize="48sp"
+        android:layout_centerInParent="true"
         android:text="80"
-        android:textColor="@color/colorPrimary"/>
+        android:textColor="@color/colorPrimary"
+        android:textSize="48sp" />
+
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_below="@id/score"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:paddingRight="40dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="winner"
+            android:textSize="24sp" />
+ 
+        <TextView
+            android:paddingLeft="20dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="name"
+            android:textSize="48sp" />
+    </LinearLayout>
 
 </android.widget.RelativeLayout>
