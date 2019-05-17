@@ -14,7 +14,31 @@
         android:text="score!"
         android:textColor="@color/colorPrimary"
         android:textSize="24sp" />
+<LinearLayout
+    android:layout_below="@id/score"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:orientation="horizontal">
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:layout_centerInParent="true"
+        android:text="teamA"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:layout_centerInParent="true"
+        android:text="80"
+        android:paddingRight="20dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="48sp" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,6 +47,19 @@
         android:text="80"
         android:textColor="@color/colorPrimary"
         android:textSize="48sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/score"
+        android:layout_centerInParent="true"
+        android:paddingRight="10dp"
+        android:text="teamB"
+        android:textColor="@color/colorPrimary"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
 
 
     <LinearLayout
